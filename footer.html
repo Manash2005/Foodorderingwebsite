@@ -4,21 +4,380 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <style>
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    
+        .footer-content h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+        }
+    
+        .footer-content p {
+            margin: 10px 0 20px;
+            font-size: 14px;
+        }
+    
+        .socials {
+            padding: 0;
+            list-style: none;
+        }
+    
+        .socials li {
+            display: inline;
+            margin: 0 10px;
+        }
+    
+        .socials a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    
+        .socials a:hover {
+            color: #d4af37;
+        }
+    
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+            }
+
+            header {
+                background-color: #343a40;
+                color: #fff;
+                padding: 10px 0;
+            }
+
+            .header-top {
+                background-color: #495057;
+                color: #fff;
+                padding: 10px 0;
+            }
+
+            .header-main {
+                background-color: #6c757d;
+                color: #fff;
+                padding: 20px 0;
+            }
+
+            nav ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 10px;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            nav ul li a:hover {
+                color: #d4af37;
+            }
+
+            .header-main h1 {
+                margin: 0;
+                font-size: 36px;
+            }
+
+            .header-main nav ul {
+                text-align: right;
+            }
+
+            .header-main nav ul li {
+                margin: 0 15px;
+            }
+
+            .header-main nav ul li a {
+                font-size: 18px;
+            }
+
+            .footer-newsletter {
+                margin-top: 20px;
+            }
+
+            .footer-newsletter form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer-newsletter input[type="email"] {
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+
+            .footer-newsletter input[type="submit"] {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: #d4af37;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            .footer-newsletter input[type="submit"]:hover {
+                background-color: #c6952d;
+            }
+
+            .footer-map {
+                margin-top: 20px;
+            }
+
+            .footer-map iframe {
+                border-radius: 10px;
+            }
+            section {
+                padding: 60px 0;
+                background-color: #fff;
+            }
+
+            section h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            section p {
+                font-size: 16px;
+                margin-bottom: 40px;
+                color: #666;
+            }
+
+            section img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+
+            section h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            section .row {
+                margin-bottom: 40px;
+            }
+
+            section audio {
+                margin-top: 20px;
+            }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="header-top"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Welcome to Food Hub Nation! Your favorite place for delicious food.</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-person"></i> Login</a></li>
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-person-plus"></i> Register</a></li>
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-cart"></i> Cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <h1>Food Hub Nation</h1>
+                    </div>
+                    <div class="col-md-8">
+                        <nav>
+                            <ul class="list-inline text-right">
+                                <li class="list-inline-item"><a href="#">Home</a></li>
+                                <li class="list-inline-item"><a href="#">Menu</a></li>
+                                <li class="list-inline-item"><a href="#">Order Online</a></li>
+                                <li class="list-inline-item"><a href="#">About Us</a></li>
+                                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Free delivery on orders over $50!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Welcome to the Best Food Experience</h2>
+                    <p>Discover the taste of deliciousness with Food Hub Nation. Enjoy our curated menu and special offers.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                   
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Welcome to the Best Food Experience</h2>
+                <p>Discover the taste of deliciousness with Food Hub Nation. Enjoy our curated menu and special offers.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" alt="Delicious Food" class="img-fluid rounded">
+                <h3>Delicious Meals</h3>
+                <p>Our meals are prepared with the freshest ingredients to ensure the best taste.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" alt="Tasty Desserts" class="img-fluid rounded">
+                <h3>Tasty Desserts</h3>
+                <p>Indulge in our wide variety of desserts that will satisfy your sweet tooth.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" alt="Refreshing Drinks" class="img-fluid rounded">
+                <h3>Refreshing Drinks</h3>
+                <p>Quench your thirst with our selection of refreshing beverages.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12 text-center">
+                <audio controls>
+                <source src="https://www.example.com/audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+                <p>Listen to our special playlist while you enjoy your meal.</p>
+            </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Healthy Salads" class="img-fluid rounded">
+                    <h3>Healthy Salads</h3>
+                    <p>Enjoy our fresh and healthy salads made with organic ingredients.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Gourmet Burgers" class="img-fluid rounded">
+                    <h3>Gourmet Burgers</h3>
+                    <p>Try our gourmet burgers, crafted to perfection with premium ingredients.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Exotic Dishes" class="img-fluid rounded">
+                    <h3>Exotic Dishes</h3>
+                    <p>Experience the flavors of our exotic dishes from around the world.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <audio controls>
+                        <source src="https://www.example.com/audio/ambient.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Relax with our ambient music while you dine.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Welcome to the Best Food Experience</h2>
+                    <p>Discover the taste of deliciousness with Food Hub Nation. Enjoy our curated menu and special offers.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Delicious Food" class="img-fluid rounded">
+                    <h3>Delicious Meals</h3>
+                    <p>Our meals are prepared with the freshest ingredients to ensure the best taste.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Tasty Desserts" class="img-fluid rounded">
+                    <h3>Tasty Desserts</h3>
+                    <p>Indulge in our wide variety of desserts that will satisfy your sweet tooth.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" alt="Refreshing Drinks" class="img-fluid rounded">
+                    <h3>Refreshing Drinks</h3>
+                    <p>Quench your thirst with our selection of refreshing beverages.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <audio controls>
+                        <source src="https://www.example.com/audio/sample.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Listen to our special playlist while you enjoy your meal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer>
         <div class="footer-content">
-            <h3>Food Hub</h3>
+            <h3>Food Hub Nation</h3>
             <p>Your one-stop destination for delicious food.</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <ul class="socials list-inline">
+                <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">About Us</a></li>
+            <li class="list-inline-item"><a href="#">Contact Us</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+            <li class="list-inline-item"><a href="#">FAQ</a></li>
+            <li class="list-inline-item"><a href="#">Blog</a></li>
+            <li class="list-inline-item"><a href="#">Careers</a></li>
             </ul>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2023 Food Hub. All rights reserved.</p>
+            <p>&copy; 2023 Food Hub Nation. All rights reserved.</p>
+            <p>123 Food Street, Flavor Town, USA</p>
+            <p>Email: support@foodhubnation.com | Phone: (123) 456-7890</p>
+        </div>
+        
+        <div class="footer-newsletter">
+            <h4>Subscribe to our Newsletter</h4>
+            <p>Get the latest updates and offers.</p>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+        <div class="footer-map">
+            <h4>Our Location</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086509486927!2d-122.4194154846815!3d37.77492927975971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b1b1b1b%3A0x4c4c4c4c4c4c4c4c!2s123%20Food%20Street%2C%20Flavor%20Town%2C%20USA!5e0!3m2!1sen!2s!4v1633024800000!5m2!1sen!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </footer>
 </body>
